@@ -9,6 +9,52 @@ body {
     background: black;
     color: white;
 }
+.logo {
+    font-size: 50px;
+    font-weight: 700;
+    color: #ff4f1a;
+    background: none;
+
+    letter-spacing: 1.5px;
+}
+.navbar {
+    width: 100%;
+    padding: 25px 60px;
+    
+    background: black;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+
+
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ffa94d;
+}
 
 
 .racer-section {
@@ -80,57 +126,7 @@ body {
     font-size: 16px;
     color: #d3d3d3;
 }
-.logo {
-    font-size: 50px;
-    font-weight: 700;
-    color: #ff4f1a;
-    background: none;
 
-    letter-spacing: 1.5px;
-}
-.navbar {
-    width: 100%;
-    padding: 25px 60px;
-    
-    background: black;
-
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-
-
-    top: 0;
-    left: 0;
-    z-index: 999;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.6);
-}
-
-.logo {
-    font-size: 50px;
-    font-weight: 700;
-    color: #ff4f1a;
-    letter-spacing: 1.5px;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-}
-
-.nav-links li a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    transition: 0.3s ease;
-}
-
-.nav-links li a:hover {
-    color: #ffa94d;
-}
     
 
 .footer {
