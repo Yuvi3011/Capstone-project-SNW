@@ -2,7 +2,8 @@
     background-color: black;
     margin: 0px;
     padding: 0px;
-    background-image: url(car1.jpeg);
+    
+    
 }
 body {
     background-color: black;
@@ -16,23 +17,36 @@ body {
 .logo {
     font-size: 50px;
     font-weight: 700;
-    background: linear-gradient(to right, #f3a32c, #ff4000);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    color: #ff4f1a;
+    background: none;
+
     letter-spacing: 1.5px;
 }
+.navbar {
+    width: 100%;
+    padding: 25px 60px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 700;
+    color: #ff4f1a;
+    letter-spacing: 1.5px;
+}
+
 .nav-links {
     list-style: none;
     display: flex;
     gap: 30px;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 5px 0;  
-    background: none;
-    background-color: transparent;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.6))
-
 }
 
 .nav-links li a {
@@ -41,31 +55,15 @@ body {
     font-size: 20px;
     font-weight: 500;
     transition: 0.3s ease;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.6))
+    margin-right: 80px;
 }
 
 .nav-links li a:hover {
     color: #ffa94d;
 }
-.navbar {
-    width: 94%;
-    padding: 20px 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
 
-    background: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.6));
 
-    
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    background-color: transparent;
-     
-    box-shadow:0 4px 15px rgba(0, 0, 0, 0.6);
-}
 
     
 
@@ -239,7 +237,7 @@ body {
 
 .footer-logo {
     background: rgb(12, 12, 12);
-    color: #ff7a00;   
+    color: #ff4f1a;   
     font-size: 50px;
     font-weight: 800;
     margin-bottom: 0px;
@@ -305,6 +303,10 @@ body {
     font-size: 18px;
     line-height: 1.5;
 }
+
+
+
+
 
 
 
